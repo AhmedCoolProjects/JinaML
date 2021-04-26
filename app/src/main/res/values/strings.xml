@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jina ML</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ahmed Bargady</string>
+    <string name="nav_header_subtitle">ahmed.bargady@esi.ac.ma</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">description</string>
+    <string name="menu_face">Face Recognition</string>
+    <string name="menu_voice">Voice Recognition</string>
+    <string name="menu_image">Image Recognition</string>
+    <string name="menu_text">Text Recognition</string>
+    <string name="menu_translate">Translation</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_second_grp_title">Performance</string>
+</resources>

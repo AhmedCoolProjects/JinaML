@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_text"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="@string/menu_text" />
+        <item
+            android:id="@+id/nav_image"
+            android:icon="@drawable/ic_baseline_photo_library_24"
+            android:title="@string/menu_image" />
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:title="@string/menu_voice" />
+        <item
+            android:id="@+id/nav_face"
+            android:icon="@drawable/ic_baseline_face_24"
+            android:title="@string/menu_face" />
+        <item
+            android:id="@+id/nav_translation"
+            android:icon="@drawable/ic_baseline_translate_24"
+            android:title="@string/menu_translate" />
+        <item android:title="@string/menu_second_grp_title">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="@string/menu_setting" />
+            </menu>
+        </item>
+    </group>
+</menu>
