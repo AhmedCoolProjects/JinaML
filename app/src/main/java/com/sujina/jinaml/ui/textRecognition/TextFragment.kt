@@ -21,15 +21,12 @@ class TextFragment : Fragment() {
     ): View? {
         textViewModel = ViewModelProvider(this).get(TextViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_text, container, false)
-        val textView: TextView = root.findViewById(R.id.text_text)
         val fab: FloatingActionButton = root.findViewById(R.id.fab_text)
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Camera will be setting up soon ;)", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
-        textViewModel.text.observe(viewLifecycleOwner, {
-            textView.text = it
-        })
+
         return root
 
     }

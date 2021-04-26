@@ -19,10 +19,7 @@ class VoiceFragment : Fragment() {
     ): View? {
         voiceViewModel = ViewModelProvider(this).get(VoiceViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_voice, container, false)
-        val textView: TextView = root.findViewById(R.id.text_voice)
-        voiceViewModel.text.observe(viewLifecycleOwner, {
-            textView.text = it
-        })
+
         return root
     }
 }

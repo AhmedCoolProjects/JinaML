@@ -18,10 +18,10 @@ class FaceFragment : Fragment() {
     ): View? {
         faceViewModel = ViewModelProvider(this).get(FaceViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_face_regonition,container,false)
-        val textView: TextView = root.findViewById(R.id.text_face_fragment)
+       /* val textView: TextView = root.findViewById(R.id.text_face_fragment)
         faceViewModel.text.observe(viewLifecycleOwner,{
             textView.text = it
-        })
+        })*/
         return root
     }
 }

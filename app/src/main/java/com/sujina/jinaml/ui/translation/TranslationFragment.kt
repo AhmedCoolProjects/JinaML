@@ -19,10 +19,7 @@ class TranslationFragment : Fragment() {
     ): View? {
         translationViewModel = ViewModelProvider(this).get(TranslationViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_translation,container,false)
-        val textView : TextView = root.findViewById(R.id.text_translation)
-        translationViewModel.text.observe(viewLifecycleOwner,{
-            textView.text = it
-        })
+
         return root
     }
 }

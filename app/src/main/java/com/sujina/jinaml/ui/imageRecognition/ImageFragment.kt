@@ -19,10 +19,7 @@ class ImageFragment : Fragment() {
     ): View? {
         imageViewModel = ViewModelProvider(this).get(ImageViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_image,container, false)
-        val textView : TextView = root.findViewById(R.id.text_image)
-        imageViewModel.text.observe(viewLifecycleOwner,{
-            textView.text = it
-        })
+
         return root
 
     }

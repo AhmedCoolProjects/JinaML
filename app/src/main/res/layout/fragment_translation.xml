@@ -6,10 +6,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.translation.TranslationFragment">
 
-    <TextView
-        android:id="@+id/text_translation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/translation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
